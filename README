@@ -1,18 +1,14 @@
-Linux kernel
-============
+小白第一次进行进行笔记
+# 小米 Phoenix 设备内核
 
-This file was moved to Documentation/admin-guide/README.rst
+## 项目概述
 
-Please notice that there are several guides for kernel developers and users.
-These guides can be rendered in a number of formats, like HTML and PDF.
-
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.
-
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
-
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+该项目旨在为小米 Phoenix 设备开发和维护自定义内核。通过这个项目，我们可以优化性能、增加功能并修复现有内核中的问题。
+本人测试在miui出现闪屏等问题 
+## 主要特性
+- 增加了KSU的支持（需要手动下载安卓apk）
+- 支持最新的硬件特性
+- 提升系统稳定性
+- 增强电池续航能力
+- 添加更多驱动程序
+ 
